@@ -12,3 +12,12 @@
   font-size: 3rem;
   color: #007bff;
 }
+.navbar{
+  display: flex;
+}
+.nav-list{
+  width: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
