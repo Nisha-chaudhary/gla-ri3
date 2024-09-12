@@ -33,3 +33,27 @@
   text-align: right;
   text-decoration: none;
 }
+.nav-list{
+  width: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items:center;
+}
+.nav-list li{
+  list-style: none;
+
+}
+.rightNav{
+  background-color: blueviolet;
+  width:50%
+
+}
+.navbar{
+  display: flex;
+}
+.nav-list{
+  width: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
