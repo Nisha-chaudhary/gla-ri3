@@ -1,5 +1,5 @@
-/** Reset CSS */
 
+/* Reset Css */
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +29,6 @@ main {
   opacity: 0.5;
   z-index: 0;
 }
-
 /**
 * Typography
 */
@@ -51,7 +50,7 @@ main {
 a {
   color: #007bff;
   text-decoration: none;
-}
+} */
 
 /**
 * Form Styles
@@ -85,7 +84,7 @@ form input {
 /**
 * Button Styles
 */
-button {
+ button {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
@@ -93,9 +92,9 @@ button {
   color: #fff;
   border: 1px solid #28a745;
   cursor: pointer;
-}
+} */
 
-button:hover {
+ button:hover {
   background-color: #218838;
 }
 
@@ -111,13 +110,13 @@ button:hover {
 .btn-success {
   background-color: #28a745;
   border-color: #28a745;
-}
+} */
 
-.btn-success:hover {
+ .btn-success:hover {
   background-color: #218838;
-}
+} 
 
-.btn-danger {
+ .btn-danger {
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -129,35 +128,35 @@ button:hover {
 .btn-warning {
   background-color: #ffc107;
   border-color: #ffc107;
-}
+} 
 
-.btn-warning:hover {
+ .btn-warning:hover {
   background-color: #e0a800;
 }
 
 .btn-light {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
-}
+} 
 
-.btn-light:hover {
+ .btn-light:hover {
   background-color: #e2e6ea;
 }
 
 .btn-dark {
   background-color: #343a40;
   border-color: #343a40;
-}
+} 
 
-.btn-dark:hover {
+ .btn-dark:hover {
   background-color: #23272b;
-}
+} 
 
 /**
 * Alert Styles
 */
 
-.alert .error {
+ .alert .error {
   color: red;
   margin-bottom: 10px;
 }
@@ -165,13 +164,13 @@ button:hover {
 .alert .success {
   color: green;
   margin-bottom: 10px;
-}
+} 
 
-.alert .loading {
+ .alert .loading {
   color: blue;
   margin-bottom: 10px;
 }
 
 .alert .form-group {
   margin-bottom: 10px;
-}
+}  

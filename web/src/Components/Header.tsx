@@ -23,6 +23,12 @@ const CommonHeader = (props) => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <li>
+            <Link to="/CourseForm">CourseForm</Link>
+          </li>
+          <li>
+            <Link to="/Uploader">Uploader</Link>
+          </li>
 
           {/* Based on the user state, show the login and register links */}
           {!isLoggedIn && (

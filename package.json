@@ -1,0 +1,12 @@
+{
+  "name": "gla-ri3",
+  "version": "1.0.0",
+  "description": "Please follow the instructions below to set up the repository for notes and mini full-stack projects:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -13,13 +13,14 @@ import CommonHeader from "@/Components/Header";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import CourseForm from './pages/Multimedia/CourseForm';
+import ManageCourses from './pages/Multimedia/ManageCourses';
 
 const BlankLayout = () => {
   return (
     <>
       <CommonHeader />
       <main>
-        <div className="bg-overlay"></div>
         <Outlet />
         <ToastContainer />
       </main>
@@ -48,6 +49,14 @@ const App = () => {
         {
           path: "/dashboard",
           element: <DashboardPage />,
+        },
+        {
+          path: "/CourseForm",
+          element: <CourseForm />,
+        },
+        {
+          path: "/ManageCourses",
+          element: <ManageCourses />,
         },
         {
           path: "/contact",
